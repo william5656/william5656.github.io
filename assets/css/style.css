@@ -2,21 +2,28 @@
     width: 960px;
     margin: 0 auto;
     margin-top: 30px;
-    background-color: white;
+    background-color: #ffffff;
     border: 2px solid #dddddd;
 }
 
 #nav {
     height: 75px;
-    background-color: white;
+    background-color: #ffffff;
     position: relative;
     border-bottom: 2px solid #cccccc;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    height: 75px;
+    position:relative;
 }
 
 .atitle {
     position: absolute;
     bottom: 0;
-    left: 19%;
+    left: 0;
     font-size: 30px;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -29,7 +36,7 @@
 nav {
     position: absolute;
     bottom: 0;
-    right: 19%;
+    right: 0;
     width: 30%;
 }
 
@@ -52,8 +59,6 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("../images/vin.png");
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
   }
 
 h2 {
@@ -65,10 +70,10 @@ h2 {
 }
 
 footer {
+    border-top: 4px solid #4aaaa5; 
     position: absolute;
     bottom: 0;
     text-align: center;
-    bottom: 0%;
     width: 100%;
     height: 30px;
     background-color: #666666; 

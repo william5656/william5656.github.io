@@ -1,9 +1,16 @@
 #main {
-    width: 960px;
+    width: 920px;
     margin: 0 auto;
     margin-top: 30px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
+    overflow: auto;
+    height: 300px;
+    padding: 20px;
+}
+
+.bottom {
+    min-height:100%;
 }
 
 #nav {
@@ -13,7 +20,7 @@
     border-bottom: 2px solid #cccccc;
 }
 
-#container {
+#header {
     width: 960px;
     margin: 0 auto;
     height: 75px;
@@ -46,6 +53,11 @@ p {
 
 }
 
+html,body {
+    height:100%;
+    margin: 0;
+}
+
 #navclick a{
     float:right;
     display: block;
@@ -63,18 +75,24 @@ body {
 
 h2 {
     margin-top:5px;
+    padding-bottom: 10px;
     margin-bottom:20px;
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5
+    color: #4aaaa5;
+    border-bottom: 2px solid lightgrey;
 }
 
 footer {
     border-top: 4px solid #4aaaa5; 
-    position: absolute;
-    bottom: 0;
     text-align: center;
     width: 100%;
     height: 30px;
     background-color: #666666; 
+    margin-top: -34px;
+}
+
+.profilepic {
+    float: left;
+    margin-right: 15px;
 }

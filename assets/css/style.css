@@ -47,16 +47,6 @@ nav {
     width: 30%;
 }
 
-p {
-    color: #777777;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-html,body {
-    height:100%;
-    margin: 0;
-}
-
 #navclick a{
     float:right;
     display: block;
@@ -64,6 +54,18 @@ html,body {
     color: #777777;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 18px;
+}
+
+p {
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+html,body {
+    height:100%;
+    margin: 0;
 }
 
 body {

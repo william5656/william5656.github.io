@@ -123,5 +123,6 @@ input[type=submit], select {
 }
 
 #construction {
-    height: 500px;
+    height: 500px;  
+    margin-left: 130px;
 }

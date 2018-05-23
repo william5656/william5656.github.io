@@ -104,18 +104,16 @@ footer {
 input[type=text] {
     width: 100%;
     margin: 4px 0px 20px;
+    resize:vertical;
 }
 
-input[id="message"] {
-    height: 160px;
-}
 
 label {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
 
-input[type=submit], select {
+input[type=submit] {
     background-color: #4aaaa5;
     color: #ffffff;
     border: none;
@@ -125,4 +123,17 @@ input[type=submit], select {
 #construction {
     height: 500px;  
     margin-left: 130px;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea[id=message] {
+    height: 160px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 4px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
 }

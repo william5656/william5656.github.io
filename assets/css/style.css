@@ -6,6 +6,7 @@
     border: 2px solid #dddddd;
     overflow: auto;
     padding: 20px;
+    position: relative;
 }
 
 #main::after {
@@ -130,7 +131,6 @@ input[type=submit] {
 #construction {
     height: 200px;  
     width:100%;
-    margin: 10px;
 }
 
 textarea {
@@ -153,9 +153,7 @@ textarea[id=message] {
 h3 {
     font-size: 15px;
     color: #ffffff;
-    background-color: #4aaaa5;
-    width: 270px;
-    padding: 10px;
+    width: 100%;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     float: left;
 }
@@ -165,10 +163,45 @@ h3 {
     float: left;
     width: 30%;
     margin: 10px;
+    
 }
 
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
     position: absolute;
+    background-color: #4aaaa5;
     bottom: 0;
     float: left;
+    width: 100%;
+    text-align: center;
+    padding:10px 0px;
 }
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-image: url("../images/underconstruction.gif");
+    overflow: hidden;
+    height:0;
+    transition: .5s ease;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  #main:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

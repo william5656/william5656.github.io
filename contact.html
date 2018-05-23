@@ -9,27 +9,40 @@
 </head>
 
 <body>
-    <div id="bar">
+    <div class="bottom">
         <div id="nav">
+            <div id="header">
                 <div class="atitle">
                     <h1>William Zhu</h1>
                 </div>
-                    <div>
-                        <nav id="navclick">
-                            <a href="#">Contact</a>
-                            <a href="#">Portfolio</a>
-                            <a href="#">About</a>
-                        </nav>
-                    </div>    
+                    <nav id="navclick">
+                        <a href="#">Contact</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">About</a>
+                    </nav>
+            </div>        
         </div>
+
+        <article id="main">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+
+                <label for="Email">Email</label>
+                <input type="text" id="email" name="Email" placeholder="example@hotmail.com">
+
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message">
+
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+
     </div>
 
-    <article id="main">
-
-    </article>
-
     <footer>
-            <p>Copyright ©</p>
+            <p id="copyright">Copyright ©</p>
     </footer>
 </body>
 

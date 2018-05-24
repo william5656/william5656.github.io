@@ -161,7 +161,7 @@ h3 {
     float: left;
 }
 
-.randompic1,.randompic2,.randompic3,.randompic4,.randompic5,.randompic6 {
+.pic{
     position: relative;
     float: left;
     width: 30%;
@@ -169,7 +169,7 @@ h3 {
     
 }
 
-.pic1, .pic2, .pic3, .pic4, .pic5, .pic6 {
+.ptitle{
     position: absolute;
     background-color: #4aaaa5;
     bottom: 0;

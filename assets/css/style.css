@@ -199,8 +199,6 @@ h3 {
   
   .text {
     white-space: nowrap; 
-    color: white;
-    font-size: 20px;
     position: absolute;
     overflow: hidden;
     top: 50%;

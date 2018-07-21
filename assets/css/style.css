@@ -21,6 +21,13 @@ h2 {
     font-size: 24px;
 }
 
+h3 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid lightgrey;
+    font-size: 30px;
+}
+
 .bg-light {
     height: 76px;
 }

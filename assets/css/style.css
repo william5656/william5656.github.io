@@ -40,13 +40,21 @@ p {
 }
 
 footer {
-    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
     border-top: 4px solid #4aaaa5; 
     line-height: 30px;
     text-align: center;
     background-color: #666666; 
 }
 
+.footer {
+    margin-top: 30px;
+    border-top: 4px solid #4aaaa5; 
+    line-height: 30px;
+    text-align: center;
+    background-color: #666666; 
+}
 
 html,body {
     height:100%;

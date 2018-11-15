@@ -1,0 +1,14 @@
+.h1-color {
+    color: #f2f2f2;
+}
+
+.size {
+    font-size: 50px;
+    color: #b3b3b3;
+}
+
+
+.size:hover, footer a:focus{
+    color: #fff;
+}
+

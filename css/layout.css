@@ -646,13 +646,13 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #333333;
+   color: #b3b3b3;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #333333; }
+footer a, footer a:visited { color: #b3b3b3; }
 
 /* copyright */
 footer .copyright {
@@ -689,7 +689,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #b3b3b3;
 }
 
 footer .social-links li:first-child { margin-left: 0; }

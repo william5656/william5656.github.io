@@ -31,3 +31,14 @@
 .color2 {
     color: #262626;
 }
+
+.omsImage {
+    border-radius: 0;
+}
+
+#volunteer {
+    margin-top: -40px;
+    padding: 90px;
+    padding-bottom: 70px;
+}
+

@@ -6,8 +6,6 @@
 
  jQuery(document).ready(function($) {
 
-
-	 <script>
 (function(s,u,r,f,l,y){
    s[f]=s[f]||{init:function(){s[f].q=arguments}};
    l=u.createElement(r);y=u.getElementsByTagName(r)[0];l.async=1;
@@ -39,7 +37,6 @@ Surfly.init(settings, function(initResult) {
        console.log("Surfly was unable to initialize properly.");
    }
 });
-</script>
 
 /*----------------------------------------------------*/
 /* FitText Settings
